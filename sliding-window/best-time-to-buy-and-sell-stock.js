@@ -1,4 +1,4 @@
-// Leetcode #121
+// Leetcode #121, easy
 
 var maxProfit = function (prices) {
 	let maxProfit = 0;
