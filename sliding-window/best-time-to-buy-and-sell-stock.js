@@ -10,10 +10,8 @@ var maxProfit = function (prices) {
 		maxProfit = Math.max(maxProfit, currProfit);
 		if (currProfit < 0) {
 			buyIdx = sellIdx;
-			sellIdx++;
-		} else {
-			sellIdx++;
 		}
+		sellIdx++;
 	}
 
 	return maxProfit;
